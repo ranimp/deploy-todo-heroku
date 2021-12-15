@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "sql6459074",
+    "password": "ySE45sfb8L",
+    "database": "sql6459074",
+    "host": "sql6.freemysqlhrootosting.net",
+    "port" : 3306,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "basic_mvc_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "basic_mvc_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
