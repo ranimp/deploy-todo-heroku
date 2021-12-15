@@ -3,6 +3,7 @@ const express = require('express');
 const { Todo } = require('./models/index');
 
 const app = express();
+const port = process.env.PORT || 3000
 // middleware
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
@@ -96,7 +97,7 @@ app.delete('/todos/:id', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log("server is listening on port 3000");
 })
     
