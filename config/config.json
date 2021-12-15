@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "sql6459074",
-    "password": "ySE45sfb8L",
-    "database": "sql6459074",
-    "host": "sql6.freemysqlhrootosting.net",
+    "username": "root",
+    "password": null,
+    "database": "basic_mvc_development",
+    "host": "localhost",
     "port" : 3306,
     "dialect": "mysql"
   },
